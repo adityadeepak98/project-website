@@ -210,8 +210,8 @@ h4 {
 
 .glitch-text {
     font-size: 4.5rem;
-    line-height: 1.1;
-    margin-bottom: 1.5rem;
+    line-height: 1.25;
+    margin-bottom: 2.5rem;
     position: relative;
     background: linear-gradient(45deg, var(--accent-2), var(--accent-4), var(--accent-1));
     -webkit-background-clip: text;
