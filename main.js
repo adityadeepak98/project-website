@@ -31,18 +31,18 @@ const contactForm = document.getElementById('contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
-        
+
         const submitBtn = contactForm.querySelector('.submit-btn span');
         const originalText = submitBtn.textContent;
-        
+
         // Change button text to show feedback
         submitBtn.textContent = 'Sending...';
-        
+
         // Simulate network request
         setTimeout(() => {
             submitBtn.textContent = 'Message Sent! ✨';
             contactForm.reset();
-            
+
             // Revert back after 3 seconds
             setTimeout(() => {
                 submitBtn.textContent = originalText;
